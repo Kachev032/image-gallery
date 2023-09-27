@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Image Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">Nature's Gallery</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="https://angelk8.sg-host.com/">Back Home</a></li>
+          <li><a href="#github">Check on GitHub</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <nav>
+        <div class="items">
+          <span class="item active" data-name="all">All</span>
+          <span class="item" data-name="cats">Cats</span>
+          <span class="item" data-name="dogs">Dogs</span>
+          <span class="item" data-name="horses">Horses</span>
+          <span class="item" data-name="eagles">Eagles</span>
+        </div>
+      </nav>
+      <div class="gallery">
+        <div class="image" data-name="cats">
+          <span><img src="images/cat-1.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="cats">
+          <span><img src="images/cat-2.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="cats">
+          <span><img src="images/cat-3.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="dogs">
+          <span><img src="images/dog-1.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="dogs">
+          <span><img src="images/dog-2.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="dogs">
+          <span><img src="images/dog-3.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="horses">
+          <span><img src="images/horse-1.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="horses">
+          <span><img src="images/horse-2.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="horses">
+          <span><img src="images/horse-3.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="eagles">
+          <span><img src="images/eagle-1.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="eagles">
+          <span><img src="images/eagle-2.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="eagles">
+          <span><img src="images/eagle-3.jpg" alt="" /></span>
+        </div>
+      </div>
+    </div>
+    <div class="lightbox">
+      <div class="details">
+        <span class="icon fas fa-times"></span>
+      </div>
+      <div class="image-box"><img src="" alt="" /></div>
+    </div>
+    <div class="shadow"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
